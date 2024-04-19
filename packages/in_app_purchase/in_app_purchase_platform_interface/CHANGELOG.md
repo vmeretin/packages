@@ -1,3 +1,7 @@
+## 1.5.0
+
+* Fix `getCountryCode` API.
+
 ## 1.4.0
 
 * Adds `getCountryCode` API.

@@ -121,13 +121,13 @@ void main() {
     });
 
     test(
-        'Default implementation of countryCode should throw unimplemented error',
+        'Default implementation of getCountryCode should throw unimplemented error',
         () {
       final ExtendsInAppPurchasePlatform inAppPurchasePlatform =
           ExtendsInAppPurchasePlatform();
 
       expect(
-        () => inAppPurchasePlatform.countryCode(),
+        () => inAppPurchasePlatform.getCountryCode(),
         throwsUnimplementedError,
       );
     });
